@@ -1,16 +1,16 @@
 High level App Analysis and Operational Guide
 ````````````````````````````````````
-1. **App Structure and Pages:**
+1. App Structure and Pages:
 
-    - **Home Page:** This is the first page users see when they open the app. It should have a clean design with a search bar at the top for building numbers or names, and a list or grid view of buildings below. Each building should have a small image and a brief description. There should also be a section for upcoming events.
+    - Home Page: This is the first page users see when they open the app. It should have a clean design with a search bar at the top for building numbers or names, and a list or grid view of buildings below. Each building should have a small image and a brief description. There should also be a section for upcoming events.
 
-    - **Building Detail Page:** When a user clicks on a building, they are taken to this page. It should display detailed information about the building, including its purpose, operating hours, and available amenities. There should also be a button for getting directions to the building.
+    - Building Detail Page: When a user clicks on a building, they are taken to this page. It should display detailed information about the building, including its purpose, operating hours, and available amenities. There should also be a button for getting directions to the building.
 
-    - **Directions Page:** This page should provide step-by-step directions from the user's current location to the selected building. It could use a map view for visual guidance.
+    - Directions Page: This page should provide step-by-step directions from the user's current location to the selected building. It could use a map view for visual guidance.
 
-    - **Events Page:** This page should display a calendar of campus events. When a user clicks on an event, they should see more details about it, including where it will take place. There should also be an option to get directions to the event location.
+    - Events Page: This page should display a calendar of campus events. When a user clicks on an event, they should see more details about it, including where it will take place. There should also be an option to get directions to the event location.
 
-    - **Settings Page:** This page should allow users to customize their app experience, such as changing their location settings.
+    - Settings Page: This page should allow users to customize their app experience, such as changing their location settings.
 
 2. **Database Structure:**
 
