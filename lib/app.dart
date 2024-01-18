@@ -18,6 +18,7 @@ class _AastuCampusLocatorAppState extends State<AastuCampusLocatorApp> {
   final List<Widget> _children = [
     HomePage(),
     BuildingDetailPage(),
+    DirectionsPage(),
     EventsPage(),
     SettingsPage(),
   ];
@@ -53,6 +54,10 @@ class _AastuCampusLocatorAppState extends State<AastuCampusLocatorApp> {
              BottomNavigationBarItem( 
               icon: Icon(Icons.business),
               label: 'Buildings',
+            ),
+             BottomNavigationBarItem( 
+              icon: Icon(Icons.direction),
+              label: 'Navigate',
             ),
              BottomNavigationBarItem( 
               icon: Icon(Icons.event),
